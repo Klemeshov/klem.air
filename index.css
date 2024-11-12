@@ -1,0 +1,154 @@
+body {
+    background: #FFF8EAB2;
+}
+
+.container {
+    max-width: 244px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    align-items: center;
+    padding: 34px 0;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    align-items: center;
+}
+
+.head__title {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.19em;
+    text-align: center;
+}
+
+.head__description {
+    font-family: Montserrat;
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 11px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+}
+
+.images__content {
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.images__carousel {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+    width: fit-content;
+    touch-action: none;
+    user-select: none;
+}
+
+.images__carousel > img {
+    border-radius: 8px;
+    pointer-events: none;
+    user-select: none;
+    width: 244px;
+    height: 244px;
+}
+
+.images__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.images__dotsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.images__arrow {
+    cursor: pointer;
+}
+
+.arrowRight {
+    transform: rotate(180deg);
+}
+
+.images__dot {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #BFB7B7;
+}
+
+.activeDot {
+    background: #BFB7B7;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.29px;
+    text-align: center;
+    border-radius: 17px;
+    color: white;
+    padding: 16px 0;
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+}
+
+.instagram {
+    background: #6F636DE8;
+}
+
+.dikidi {
+    background: #659987;
+}
+
+.whatsapp {
+    background: #94A59BD1;
+}
+
+.vk {
+    background: #483C4687;
+}
+
+.map {
+    background: #483C4669;
+}
+
+.footer {
+    font-family: Montserrat;
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 11px;
+    text-align: center;
+}

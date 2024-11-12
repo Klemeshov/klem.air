@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>klem.air</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preload" href="./index.css" as="style"/>
+    <link rel="preload" href="./index.js" as="script"/>
+    <link rel="preload" href="./assets/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2" as="font" type="font/woff2"
+          crossorigin/>
+    <link rel="preload" href="./assets/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2" as="font" type="font/woff2" crossorigin/>
+
+    <style>
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 100 900;
+            font-display: fallback;
+            src: url(./assets/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 100 900;
+            font-display: fallback;
+            src: url(./assets/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');
+        }
+    </style>
+
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="head">
+        <div class="head__title">KLEM.AIR STUDIO</div>
+        <div class="head__description">БРОВИ | ЛАМИНИРОВАНИЕ РЕСНИЦ | ОБУЧЕНИЕ</div>
+    </div>
+    <div class="images">
+        <div class="images__content">
+            <div id="carousel" class="images__carousel">
+                <img src="./assets/0.jpg" alt="photo"/>
+                <img src="./assets/1.jpg" alt="photo"/>
+                <img src="./assets/2.jpg" alt="photo"/>
+                <img src="./assets/3.jpg" alt="photo"/>
+                <img src="./assets/4.jpg" alt="photo"/>
+                <img src="./assets/5.jpg" alt="photo"/>
+                <img src="./assets/6.jpg" alt="photo"/>
+                <img src="./assets/7.jpg" alt="photo"/>
+            </div>
+        </div>
+        <div class="images__bottom">
+            <svg onclick="prev()" class="images__arrow arrowLeft" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.40865 6.3745L5.51445 8.4694L4.98553 9.0011L2.23552 6.26535C2.16477 6.195 2.125 6.0993 2.125 5.9995C2.125 5.8997 2.16477 5.80405 2.23552 5.73365L4.98553 2.99792L5.51445 3.52963L3.40868 5.6245H10V6.3745H3.40865Z"
+                      fill="#BFB7B7"/>
+            </svg>
+            <div class="images__dotsContainer">
+                <span onclick="chose(0)" class="images__dot activeDot"></span>
+                <span onclick="chose(1)" class="images__dot"></span>
+                <span onclick="chose(2)" class="images__dot"></span>
+                <span onclick="chose(3)" class="images__dot"></span>
+                <span onclick="chose(4)" class="images__dot"></span>
+                <span onclick="chose(5)" class="images__dot"></span>
+                <span onclick="chose(6)" class="images__dot"></span>
+                <span onclick="chose(7)" class="images__dot"></span>
+            </div>
+            <svg onclick="next()" class="images__arrow arrowRight" width="12" height="12" viewBox="0 0 12 12"
+                 fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.40865 6.3745L5.51445 8.4694L4.98553 9.0011L2.23552 6.26535C2.16477 6.195 2.125 6.0993 2.125 5.9995C2.125 5.8997 2.16477 5.80405 2.23552 5.73365L4.98553 2.99792L5.51445 3.52963L3.40868 5.6245H10V6.3745H3.40865Z"
+                      fill="#BFB7B7"/>
+            </svg>
+        </div>
+    </div>
+    <div class="buttons">
+        <a href="https://www.instagram.com/klemeshova.darya?igsh=MTUzODF4OG5qOWJ3Yg%3D%3D&utm_source=qr"
+           class="button instagram" target="_blank">Профиль в Instagram*</a>
+        <a href="https://dikidi.net/1648125" class="button dikidi" target="_blank">Онлайн-запись</a>
+        <a href="https://wa.me/message/YOCEUBCEEYTDF1" class="button whatsapp" target="_blank">Написать в WhatsApp</a>
+        <a href="https://vk.com/klemair_studio" class="button vk" target="_blank">Группа ВКонтакте</a>
+        <a href="https://yandex.ru/maps/-/CDhY4Wiw" class="button map" target="_blank">📍 Ссылка на карты</a>
+    </div>
+    <div class="footer">
+        * Принадлежит компании Meta, которая является запрещённой организацией в РФ.
+    </div>
+</div>
+</body>
+</html>
